@@ -76,7 +76,7 @@ def sort_by_book_number(filename):
 def create_bible_pdf():
     # Create PDF document
     doc = SimpleDocTemplate(
-        "bible.pdf",
+        "biblia.pdf",
         pagesize=letter,
         rightMargin=72,
         leftMargin=72,

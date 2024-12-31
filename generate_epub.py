@@ -117,7 +117,7 @@ def create_bible_epub():
     book.spine = spine
     
     # Write epub file
-    epub.write_epub('bible.epub', book)
+    epub.write_epub('biblia.epub', book)
 
 if __name__ == '__main__':
     create_bible_epub()
